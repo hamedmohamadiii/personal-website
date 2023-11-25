@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* all */
+@font-face {
+  font-family: sans;
+  src: url(../font/Sans.ttf);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  font-family: sans;
+
 }
+
+*::selection{
+  color: white;
+  background-color: #9c1f9c;
+ 
+}
+/* end of all */
+/* navbar */
+.navbar-background{
+  background-color: rgba(255, 255, 255, 0.932);
+}
+
+.item{
+  border-radius:27px;
+}
+
+hover-dark:hover{
+  background-color: black;
+}
+/* @media(min-width:768px){
+  .item:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius:27px;
+  }
+} */
+
+.item-icon{
+  border-radius:27px;
+}
+
+.item-icon:hover{
+  /* background-color: rgb(255, 255, 255);
+  border-radius:27px; */
+  /* color: rgb(236, 234, 236); */
+}
+
+.opacity:hover{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/* end of navbar */
+
+
+/* banner */
+
+.bg-image{
+  background-image: url("../public/images/8-dark@tinypng.7abc66a1\ \(1\).png");
+
+ background-size:cover ;
+}
+
+.bg-image-skills{
+background-color: rgb(255, 255, 255);
+}
+
+
+/* end of banner */
+
+/* project */
+.card-hover:hover{
+  background-color: rgb(241, 241, 241);
+}
+
+.card{
+  width:100%;
+  
+}
+body{
+  background-color: blueviolet;
+}
+
+
+/* end of project */
